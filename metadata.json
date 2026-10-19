@@ -1,0 +1,8 @@
+{
+  "name": "BazController Studio",
+  "description": "Production Android Studio gaming controller & Windows C# companion suite with 360° steering wheel, ViGEmBus virtual Xbox gamepad, layout editor, and low-latency protocol.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

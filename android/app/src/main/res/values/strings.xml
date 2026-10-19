@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BazController</string>
+    <string name="title_controller">Game Controller</string>
+    <string name="title_connection">Connection Hub</string>
+    <string name="title_layout_editor">Layout Studio</string>
+    <string name="title_settings">Settings &amp; Calibration</string>
+    <string name="title_templates">Layout Templates</string>
+
+    <string name="status_connected">Connected</string>
+    <string name="status_disconnected">Disconnected</string>
+    <string name="status_connecting">Connecting...</string>
+
+    <string name="mode_usb">USB Direct</string>
+    <string name="mode_bluetooth">Bluetooth SPP</string>
+    <string name="mode_ble">Bluetooth LE</string>
+    <string name="mode_wifi">Wi-Fi TCP</string>
+</resources>

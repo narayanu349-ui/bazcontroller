@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon></ApplicationIcon>
+    <AssemblyTitle>BazController Companion</AssemblyTitle>
+    <Company>BazTech</Company>
+    <Product>BazController Windows Gaming Companion</Product>
+    <Description>Low-latency controller receiver for Android BazController with ViGEmBus virtual Xbox 360 emulation</Description>
+    <Version>1.0.0</Version>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- ViGEmBus client driver wrapper for virtual Xbox 360 / DualShock 4 controller emulation -->
+    <PackageReference Include="Nefarius.ViGEm.Client" Version="1.21.256" />
+    <!-- 32feet.NET for Bluetooth Classic SPP RFCOMM socket server -->
+    <PackageReference Include="InTheHand.Net.Bluetooth" Version="4.1.44" />
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.3.2" />
+  </ItemGroup>
+
+</Project>
